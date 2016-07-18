@@ -97,3 +97,4 @@ end
 
 h = HTMLParser.new("<div>  div text before  <p>    p text  </p>  <div>    more div text  </div>  div text after</div>")
 
+outputter(h.root)
